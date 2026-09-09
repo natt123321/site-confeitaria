@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cardápio</title>
+
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/cardapio.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="../IMG/favicon.png">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="div-logo">
+
+            <img class="logotipo" src="../IMG/Logotipo confeitaria bolos delicado rosa .png" alt="Logotipo da Confeitaria">
+
+        </div>
+
+        <div class="div-menu">
+
+            <h1>
+                Confeitaria Sempre Doce
+            </h1>
+
+            <nav>
+
+                <ul>
+
+                    <li>
+                        <a href="../index.html">Início</a>
+                    </li>
+
+                    <li>
+                        <a href="pages/sobre.html">Sobre</a>
+                    </li>
+
+                    <li>
+                        <a href="pages/cardapio.html">Cardápio</a>
+                    </li>
+
+                    <li>
+                        <a href="pages/contato.html">Contato</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <section class="sobre">
+
+        <h2>Nosso Cardápio</h2>
+
+        <div class="menu-cardapio-itens">
+
+            <div class="menu-cardapio-item">
+
+                <h3>Bolo de Morango com baunilha</h3>
+
+                <div class="div-card">
+
+                    <img class="img-cardapio" src="../IMG/bolo1.jpg" alt="Bolo de morango com baunilha">
+
+                    <p>
+                        Um bolo artesanal com camadas de morango e baunilha.
+                    </p>
+
+                </div>
+
+                <div class="Reservar">
+
+                    <a href="">Reservar</a>
+
+                </div>
+
+            </div>
+
+            <div class="menu-cardapio-item">
+
+                <h3>Bolo misto de chocolate branco e ao leite</h3>
+
+                <div class="div-card">
+
+                    <img class="img-cardapio" src="../IMG/bolo2.jpg" alt="Bolo de chocolate branco e ao leite">
+
+                    <p>
+                        Um sabor clássico misto com morangos em cima.
+                    </p>
+
+                </div>
+
+                <div class="Reservar">
+
+                    <a href="">Reservar</a>
+
+                </div>
+
+            </div>
+
+            <div class="menu-cardapio-item">
+
+                <h3>Bolo de bombom</h3>
+
+                <div class="div-card">
+
+                    <img class="img-cardapio" src="../IMG/bolo3.jpg" alt="Bolo de bombom">
+
+                    <p>
+                        Bombons em cima e várias camadas cremosas por dentro.
+                    </p>
+
+                </div>
+
+                <div class="Reservar">
+
+                    <a href="">Reservar</a>
+
+                </div>
+
+            </div>
+
+            <div class="menu-cardapio-item">
+
+                <h3>Bolo de limão</h3>
+
+                <div class="div-card">
+
+                    <img class="img-cardapio" src="../IMG/bolo4.jpg" alt="Bolo de limão">
+
+                    <p>
+                        Cobertura cremosa por cima e um sabor irresistível por dentro.
+                    </p>
+
+                </div>
+
+                <div class="Reservar">
+
+                    <a href="">Reservar</a>
+
+                </div>
+
+            </div>
+
+            <div class="menu-cardapio-item">
+
+                <h3>Bolo de maracujá</h3>
+
+                <div class="div-card">
+
+                    <img class="img-cardapio" src="../IMG/bolo5.jpg" alt="Bolo de maracujá">
+
+                    <p>
+                        Coberto de chantilly e um sabor leve por dentro.
+                    </p>
+
+                </div>
+
+                <div class="Reservar">
+
+                    <a href="">Reservar</a>
+
+                </div>
+
+            </div>
+
+            <div class="menu-cardapio-item">
+
+                <h3>Bolo de cenoura</h3>
+
+                <div class="div-card">
+
+                    <img class="img-cardapio" src="../IMG/bolo6.jpg" alt="Nome do bolo">
+
+                    <p>
+                        Um clássico com cobertura de chocolate saborosa.
+                    </p>
+
+                </div>
+
+                <div class="Reservar">
+                    <button onclick="abrir()">
+                        Reservar
+                    </button>
+                    
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <div id="fade" class="hide"></div>
+
+<div id="modal" class="hide">
+
+    <div>
+        <h2>Realizar reserva</h2>
+        <img src="" alt="">
+    </div>
+
+    <div>
+        <a href="#" onclick="fechar()">Fechar</a>
+    </div>
+
+</div>
+
+</body>
+<script src="../JS/cardapio.js"></script>
+
+</html>
