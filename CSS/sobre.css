@@ -1,0 +1,33 @@
+.conteudo-sobre {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 50px;
+}
+
+.conteudo-sobre h2 {
+    margin-bottom: 25px;
+}
+
+.bloco-sobre {
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    background-color: #FFF3F5;
+    border: 2px solid #F7B0B2;
+    border-radius: 20px;
+}
+
+.bloco-sobre h3 {
+    margin-bottom: 10px;
+}
+
+.bloco-sobre p {
+    font-size: 20px;
+}
+
+.imagem-sobre {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
