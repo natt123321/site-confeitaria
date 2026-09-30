@@ -16,7 +16,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Indie+Flower&display=swap"
+        rel="stylesheet">
 
     <link rel="shortcut icon" href="../IMG/favicon.png">
 
@@ -28,7 +29,8 @@
 
         <div class="div-logo">
 
-            <img class="logotipo" src="../IMG/Logotipo confeitaria bolos delicado rosa .png" alt="Logotipo da Confeitaria">
+            <img class="logotipo" src="../IMG/Logotipo confeitaria bolos delicado rosa .png"
+                alt="Logotipo da Confeitaria">
 
         </div>
 
@@ -51,7 +53,7 @@
                     </li>
 
                     <li>
-                        <a href="pages/cardapio.html">Cardápio</a>
+                        <a href="cardapio.html">Cardápio</a>
                     </li>
 
                     <li>
@@ -63,6 +65,8 @@
             </nav>
 
         </div>
+
+        <div class="div-logo"></div>
 
     </header>
 
@@ -88,9 +92,9 @@
                 </div>
 
                 <div class="Reservar">
-
-                    <a href="">Reservar</a>
-
+                    <button class="button-reserva" onclick="abrir()">
+                        Reservar
+                    </button>
                 </div>
 
             </div>
@@ -110,9 +114,9 @@
                 </div>
 
                 <div class="Reservar">
-
-                    <a href="">Reservar</a>
-
+                    <button class="button-reserva" onclick="abrir()">
+                        Reservar
+                    </button>
                 </div>
 
             </div>
@@ -132,11 +136,10 @@
                 </div>
 
                 <div class="Reservar">
-
-                    <a href="">Reservar</a>
-
+                    <button class="button-reserva" onclick="abrir()">
+                        Reservar
+                    </button>
                 </div>
-
             </div>
 
             <div class="menu-cardapio-item">
@@ -154,9 +157,9 @@
                 </div>
 
                 <div class="Reservar">
-
-                    <a href="">Reservar</a>
-
+                    <button class="button-reserva" onclick="abrir()">
+                        Reservar
+                    </button>
                 </div>
 
             </div>
@@ -176,9 +179,9 @@
                 </div>
 
                 <div class="Reservar">
-
-                    <a href="">Reservar</a>
-
+                    <button class="button-reserva" onclick="abrir()">
+                        Reservar
+                    </button>
                 </div>
 
             </div>
@@ -198,13 +201,14 @@
                 </div>
 
                 <div class="Reservar">
-                    <button onclick="abrir()">
+                    <button class="button-reserva" onclick="abrir()">
                         Reservar
                     </button>
-                    
                 </div>
 
             </div>
+
+        </div>
 
 
         </div>
@@ -213,18 +217,18 @@
 
     <div id="fade" class="hide"></div>
 
-<div id="modal" class="hide">
+    <div id="modal" class="hide">
 
-    <div>
-        <h2>Realizar reserva</h2>
-        <img src="" alt="">
+        <div class="centralizado">
+            <h2>Realizar reserva</h2>
+            <img src="../IMG/PIX.png" alt="QRCode para pagamento via PIX">
+        </div>
+
+        <div>
+            <a href="#" onclick="fechar()">Fechar</a>
+        </div>
+
     </div>
-
-    <div>
-        <a href="#" onclick="fechar()">Fechar</a>
-    </div>
-
-</div>
 
 </body>
 <script src="../JS/cardapio.js"></script>
