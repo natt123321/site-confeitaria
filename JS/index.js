@@ -3,11 +3,11 @@
 let indice = 0 // ela vai controlar o índice da lista
 
 let imagens = [
-    "IMG/bolo1.jpg",
-    "IMG/bolo2.jpg",
-    "IMG/bolo3.jpg",
-    "IMG/bolo4.jpg",
-    "IMG/bolo5.jpg"
+    "img/bolo1.jpg",
+    "img/bolo2.jpg",
+    "img/bolo3.jpg",
+    "img/bolo4.jpg",
+    "img/bolo5.jpg"
 ]
 
 // Função para trocar a imagem
