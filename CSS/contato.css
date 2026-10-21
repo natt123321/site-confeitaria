@@ -1,0 +1,155 @@
+
+.contato-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+    color: #7b331f;
+}
+
+.contato-container h2,
+.introducao {
+    text-align: center;
+}
+
+.introducao {
+    margin-bottom: 25px;
+}
+
+fieldset {
+    border: 2px solid #F7B0B2;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: #FFF9FA;
+}
+
+legend {
+    color: #D7586D;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.grade-campos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 250px;
+    gap: 5px;
+    min-width: 0;
+}
+
+.campo-completo {
+    flex-basis: 100%;
+}
+
+.campo label {
+    color: #D7586D;
+    font-size: 18px;
+}
+
+.campo input,
+.campo select {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E7A1AD;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    color: #7b331f;
+}
+
+.item-pedido {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #FFF3F5;
+    border-radius: 10px;
+}
+
+.remover-item {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F8C6C4;
+    color: #8F3043;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#adicionar-item,
+.botao-enviar {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #D7586D;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#adicionar-item:hover,
+.botao-enviar:hover {
+    background-color: #B84459;
+}
+
+.total-pedido {
+    margin-top: 20px;
+    padding: 15px;
+    text-align: right;
+    color: #D7586D;
+    font-size: 24px;
+    font-weight: bold;
+    border-top: 2px solid #F7B0B2;
+}
+
+.pagamentos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pagamentos label {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.pagamentos input {
+    accent-color: #D7586D;
+}
+
+.botao-enviar {
+    display: block;
+    margin: 0 auto;
+}
+
+#mensagem {
+    text-align: center;
+    color: #D7586D;
+    font-weight: bold;
+}
+
+.campo select option {
+    color: #7b331f;
+}
+
+@media (max-width: 600px) {
+    .item-pedido {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .pagamentos {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
