@@ -1,0 +1,16 @@
+table {
+    border: 1px solid;
+}
+
+table img {
+    width: 20%;
+    border-radius: 5px;
+}
+
+table td {
+    border: 1px solid;
+}
+.sobre {
+    margin: 20px;
+}
+
